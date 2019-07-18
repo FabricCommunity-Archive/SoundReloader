@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "soundreloader",
+  "version": "${version}",
+
+  "name": "Sound Reloader",
+  "description": "Allows you to press F8 to only reload sounds (instead of F3 + T to reload everything)",
+  "authors": [
+    "MrIbby"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/projects/328174/",
+    "sources": "https://github.com/FabricCommunity/SoundReloader"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/soundreloader/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.fabriccommunity.soundreloader.SoundReloaderMod"
+    ]
+  },
+  "mixins": [
+    "soundreloader.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
