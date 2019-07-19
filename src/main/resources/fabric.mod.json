@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://curseforge.com/projects/328174/",
-    "sources": "https://github.com/FabricCommunity/SoundReloader"
+    "sources": "https://github.com/FabricCommunity/SoundReloader",
+    "issues": "https://github.com/FabricCommunity/SoundReloader/issues"
   },
 
   "license": "CC0-1.0",
@@ -29,5 +30,9 @@
   "depends": {
     "fabricloader": ">=0.4.0",
     "fabric": "*"
+  },
+
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }
